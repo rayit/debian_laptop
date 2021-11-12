@@ -2,7 +2,7 @@
 
 Install without desktop
 
-'''bash
+```bash
 apt install iwd make gcc libx11-dev libxft-dev libxinerama-dev xorg
-'''
+```
 
