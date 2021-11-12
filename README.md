@@ -35,7 +35,7 @@ iwctl
 ### Packages I use
 
 ```bash
-apt install wget make gcc libx11-dev libxft-dev libxinerama-dev xorg git feh git vim mpv vlc gimp htop fish mupdf neofetch fish slock exa
+apt install wget make gcc libx11-dev libxft-dev libxinerama-dev xorg git feh git vim mpv vlc gimp htop fish mupdf neofetch fish slock exa fonts-agave
 ```
 
 ### Suckless
