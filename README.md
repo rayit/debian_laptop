@@ -34,6 +34,8 @@ systemctl --now enable iwd
 
 
 
+
+
 create 
 vi /etc/iwd/main.conf
 
@@ -43,5 +45,11 @@ EnableNetworkConfiguration=true
 As non roou:
 
 iwctl
+
+## 
+apt install git chromium powerline-fontsfeh git vim mpv vlc gimp htop fish mupdf neofetch ghostwrite terminus-font fish slock mate-terminal exa
+
+
+
 
 
