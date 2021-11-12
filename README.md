@@ -23,12 +23,25 @@ apt install iwd
 
 vi /etc/modeprobe.d/iwlwifi.conf
 and then entering the following content
-CODE: SELECT ALL
 
 options iwlwifi enable_ini=N
-After saving and exiting nano you will need to
-CODE: SELECT ALL
 
-update-initramfs -u
+
+
+systemctl --now disable wpa_supplicant
+
+systemctl --now enable iwd
+
+
+
+create 
+vi /etc/iwd/main.conf
+
+[General]
+EnableNetworkConfiguration=true
+
+As non roou:
+
+iwctl
 
 
