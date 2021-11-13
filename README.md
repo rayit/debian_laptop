@@ -69,3 +69,6 @@ apt update && sudo apt install -y google-chrome-stable
 apt install alsa-utils
 /sbin/alsactl init
 ```
+
+## Fonts
+https://github.com/ryanoasis/nerd-fonts/releases/tag/v2.1.0
