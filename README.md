@@ -15,19 +15,19 @@ apt install iwd
 ```
 To surpress stupid error:
 vi /etc/modeprobe.d/iwlwifi.conf
-...
+```
 options iwlwifi enable_ini=N
-...
+```
 ```bash
 systemctl --now disable wpa_supplicant
 systemctl --now enable iwd
 ```
  
 vi /etc/iwd/main.conf
-...
+```
 [General]
 EnableNetworkConfiguration=true
-...
+```
 
 As non root:
 iwctl
