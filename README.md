@@ -74,5 +74,5 @@ apt install alsa-utils
 https://github.com/ryanoasis/nerd-fonts/releases/tag/v2.1.0
 
 ## Terminal
-- alacitty
+- alacritty
 
